@@ -1,7 +1,7 @@
 z-cms for laravel
 ===============================
 ```
-$ laravel new z-cms
+$ laravel new zcms
 $ php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
 $ php artisan admin:install
 ```
