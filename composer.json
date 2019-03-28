@@ -1,0 +1,36 @@
+{
+    "name"       : "zxg321/zcms",
+    "description": "zcms",
+    "type"       : "library",
+    "keywords"   : ["laravel", "php", "cms"],
+    "homepage"   : "https://github.com/zxg321/zcms",
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "zxg321",
+            "email": "zxg321@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zxg321\\Zcms\\": "src/"
+        }
+    },
+    "require": {
+        "php"                 : ">=7.0.0",
+        "laravel/framework"   : "~5.6",
+        "encore/laravel-admin": "dev-master"
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "laravel/laravel": "~5.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zxg321\\Zcms\\ZcmsServiceProvider"
+            ]
+        }
+    }
+}
